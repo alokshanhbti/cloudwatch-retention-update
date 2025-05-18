@@ -39,10 +39,10 @@ chmod +x cloudwatch-retention-update.sh
 
 ```
 ## 📦 Dependencies
-awscli
-sendmail
-CloudWatch Agent (for memory metrics)
-IAM role with appropriate permissions
+- awscli
+- sendmail
+- CloudWatch Agent (for memory metrics)
+- IAM role with appropriate permissions
 
 🧪 Pro Tip
 Schedule via cron to get regular reports:
