@@ -32,7 +32,23 @@
 ```bash
 chmod +x cloudwatch-retention-update.sh
 
-### Step 2: Make it executable
+```
+### Step 2: Run the script
 ```bash
 ./cloudwatch-retention-update.sh
 
+```
+## 📦 Dependencies
+awscli
+sendmail
+CloudWatch Agent (for memory metrics)
+IAM role with appropriate permissions
+
+🧪 Pro Tip
+Schedule via cron to get regular reports:
+
+```bash
+
+0 8 * * * /path/to/cloudwatch_retention_update.sh
+
+```
