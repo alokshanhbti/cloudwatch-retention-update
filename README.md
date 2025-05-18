@@ -52,3 +52,6 @@ Schedule via cron to get regular reports:
 0 8 * * * /path/to/cloudwatch_retention_update.sh
 
 ```
+## 🛡 Disclaimer
+
+- Use with caution. This script modifies AWS resources. It's recommended to run in test environments before applying in  production.
